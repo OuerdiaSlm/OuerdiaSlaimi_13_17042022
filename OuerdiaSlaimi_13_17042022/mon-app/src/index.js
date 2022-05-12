@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header/headerNav';
 import Authentication from './components/authentication/authentication';
+import IndexBanner from './components/indexBanner/indexBanner';
+import Features from './components/features/features';
+import Footer from './components/footer/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Header/>
-    <Authentication/>
+    {/* <Authentication/> */}
+    <IndexBanner/>
+    <Features/>
+    <Footer/>
   </React.StrictMode>
 );
 

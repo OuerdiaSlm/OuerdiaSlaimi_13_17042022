@@ -4,7 +4,7 @@ import './autentication.css';
   function Authentication() {
     return (
       <div className="global-div-authentication">
-        <h1>Welcome back   TEEESSSTT</h1>
+        <h1>Welcome back</h1>
 
         <form className="autentication-form">
           <div className="autentication-input-text">

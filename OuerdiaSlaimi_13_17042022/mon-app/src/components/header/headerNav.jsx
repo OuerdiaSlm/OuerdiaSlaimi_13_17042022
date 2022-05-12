@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom";
 import './headerNav.css';
 import logo from '../../assets/argentBankLogo.png';
 
@@ -8,10 +9,9 @@ import logo from '../../assets/argentBankLogo.png';
         <header className="">
           <div className="Barre-navigation">
             <img src={logo} className="logo" alt="" />
-            <ul className="Barre-text">  
-              <li className="headerNav-li">Profil</li>
-              <li className="headerNav-li">Sign out</li>
-            </ul>
+              <ul className="Barre-text">  
+                <li className="headerNav-li">Sign in</li>
+              </ul>
           </div>
         </header>
       </div>

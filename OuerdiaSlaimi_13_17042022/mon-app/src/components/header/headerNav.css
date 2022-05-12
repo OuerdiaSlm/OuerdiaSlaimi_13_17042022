@@ -19,6 +19,8 @@
 }
 
 .logo{
-  width: 250px;
+  width: 190px;
+  padding: 5px;
+  padding-left: 25px;
   object-fit: cover;
 }
