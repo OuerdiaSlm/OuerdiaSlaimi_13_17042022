@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from "react-router-dom";
 import './headerNav.css';
 import logo from '../../assets/argentBankLogo.png';
+import { Link } from 'react-router-dom';
 
   function Header() {
     return (
@@ -9,9 +9,7 @@ import logo from '../../assets/argentBankLogo.png';
         <header className="">
           <div className="Barre-navigation">
             <img src={logo} className="logo" alt="" />
-              <ul className="Barre-text">  
-                <li className="headerNav-li">Sign in</li>
-              </ul>
+            {/* <Link to={"/"}>Sign in</Link> */}
           </div>
         </header>
       </div>
