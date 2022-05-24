@@ -8,12 +8,16 @@ import IndexBanner from './components/indexBanner/indexBanner';
 import Features from './components/features/features';
 import Footer from './components/footer/footer';
 import Homepage from './pages/homepage';
-import SingIn from './pages/sign-in';
+import SingInPage from './pages/SingInPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+
   <Homepage/>
+  {/* <SingInPage/> */}
+
+
   
     {/*
     <App /> 
@@ -23,6 +27,7 @@ root.render(
     <Features/>
     <Footer/>
     */}
+
 
   </React.StrictMode>
 );
