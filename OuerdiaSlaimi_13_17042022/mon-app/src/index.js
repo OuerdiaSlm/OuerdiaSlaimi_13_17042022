@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header/headerNav';
@@ -9,12 +10,19 @@ import Features from './components/features/features';
 import Footer from './components/footer/footer';
 import Homepage from './pages/homepage';
 import SingInPage from './pages/SingInPage';
+import SingIn from './components/sign-in/sign-in';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Homepage/>}/>
+        <Route exact path="/SingInPage" element={<SingInPage/>}/>
+      </Routes>
+    </Router>
 
-  <Homepage/>
+  
   {/* <SingInPage/> */}
 
 

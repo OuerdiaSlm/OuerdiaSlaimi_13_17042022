@@ -1,6 +1,7 @@
 .Barre-navigation {
   display: flex;
   justify-content: space-between;
+  padding: 5px 20px;
 }
 
 .Barre-text {
@@ -20,7 +21,29 @@
 
 .logo{
   width: 190px;
-  padding: 5px;
-  padding-left: 25px;
   object-fit: cover;
+}
+
+.signIn-Link{
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signIn-Link i {
+  display: flex;
+  align-items: center;
+}
+
+.signIn-Link h3 {
+  font-size: initial;
+}
+
+a {
+  text-decoration: none;
 }

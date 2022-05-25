@@ -27,7 +27,6 @@ const featuresDatas = [
 
   function Features() {
     return (
-      <div className="features">
         <section className="features">
         {featuresDatas.map(item => (
           <div key={item.id}>
@@ -40,7 +39,6 @@ const featuresDatas = [
           </div>
         ))}
       </section>
-      </div>
     )
   }
   export default Features;
