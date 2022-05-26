@@ -3,14 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/header/headerNav';
-import Authentication from './components/authentication/authentication';
-import IndexBanner from './components/indexBanner/indexBanner';
-import Features from './components/features/features';
-import Footer from './components/footer/footer';
 import Homepage from './pages/homepage';
 import SingInPage from './pages/SingInPage';
-import SingIn from './components/sign-in/sign-in';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,22 +15,6 @@ root.render(
         <Route exact path="/SingInPage" element={<SingInPage/>}/>
       </Routes>
     </Router>
-
-  
-  {/* <SingInPage/> */}
-
-
-  
-    {/*
-    <App /> 
-    <Header/>
-    <Authentication/> 
-    <IndexBanner/>
-    <Features/>
-    <Footer/>
-    */}
-
-
   </React.StrictMode>
 );
 

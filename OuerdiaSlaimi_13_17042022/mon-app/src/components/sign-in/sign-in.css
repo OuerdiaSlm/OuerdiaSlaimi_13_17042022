@@ -8,9 +8,13 @@
   justify-content: center;
   box-sizing: border-box;
   background-color: white;
-  width: 300px;
+  max-width: 300px;
   margin: 0 auto;
   padding: 1.5rem;
+}
+
+.sign-in-content i, .sign-in-content h1 {
+  text-align: center;
 }
 
 .sign-in-button {
@@ -23,18 +27,27 @@
   border-color: #00bc77;
   background-color: #00bc77;
   color: #fff;
+  text-decoration: underline;
 }
 
 
 .input-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
   padding: 5px;
   font-size: 1.2rem;
 }
 
 .label-wrapper {
   font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .bg-dark {
+    background-color: #12002b;
+    padding: 100px 50px;
+  }
 }

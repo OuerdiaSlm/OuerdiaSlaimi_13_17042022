@@ -15,7 +15,7 @@
   position: absolute;
   top: 50px;
   right: 50px;
-  width: 300px;
+  max-width: 300px;
   margin: 2rem;
 }
 
@@ -52,4 +52,10 @@
 .hero-content .subtitle {
   font-weight: bold;
   margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .hero-content{
+    right: 0px;
+  }
 }
